@@ -35,13 +35,12 @@ The project uses a customer shopping dataset with 3,900 records and includes the
 
 ## Repository Contents
 
-- `customer_shopping_behavior.csv` — source dataset used for analysis
-- `customer_behavior_sql_queries.sql` — SQL queries covering business questions and analytical insights
-- `Customer_Shopping_Behavior_Analysis.ipynb` — Python notebook with exploratory analysis and data processing
-- `customer_behavior_dashboard.pbix` — Power BI dashboard for visual storytelling
-- `Customer-Shopping-Behavior-Analysis.pptx` — presentation deck summarizing findings
-- `Customer Shopping Behavior Analysis.pdf` — PDF version of the presentation
-- `Business Problem  Document.pdf` — business problem statement and context
+- `data/` — source dataset used for analysis
+- `sql/` — SQL queries covering business questions and analytical insights
+- `notebooks/` — Python notebook with exploratory analysis and data processing
+- `powerbi/` — Power BI dashboard for visual storytelling
+- `reports/` — presentation deck, PDF presentation, and business problem statement
+- `LICENSE` — project license
 
 ## Business Questions Answered
 
@@ -77,13 +76,16 @@ The SQL analysis covers key questions such as:
 ## Suggested Usage
 
 ### SQL analysis
-Open `customer_behavior_sql_queries.sql` in a SQL client and execute queries to replicate the core analysis.
+Open [sql/customer_behavior_sql_queries.sql](sql/customer_behavior_sql_queries.sql) in a SQL client and execute queries to replicate the core analysis.
 
 ### Python exploration
-Open `Customer_Shopping_Behavior_Analysis.ipynb` in Jupyter Notebook or VS Code to inspect data trends and validate the results.
+Open [notebooks/Customer_Shopping_Behavior_Analysis.ipynb](notebooks/Customer_Shopping_Behavior_Analysis.ipynb) in Jupyter Notebook or VS Code to inspect data trends and validate the results. The notebook reads its dataset from `data/customer_shopping_behavior.csv`.
 
 ### Power BI dashboard
-Open `customer_behavior_dashboard.pbix` in Power BI Desktop to view the interactive dashboard.
+Open [powerbi/customer_behavior_dashboard.pbix](powerbi/customer_behavior_dashboard.pbix) in Power BI Desktop to view the interactive dashboard.
+
+### Reports
+The presentation deck, PDF presentation, and business problem statement are available in [reports/](reports/).
 
 ## Key Insights (Example)
 
